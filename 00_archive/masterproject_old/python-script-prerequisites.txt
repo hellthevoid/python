@@ -1,0 +1,7 @@
+1. Datenstruktur darf nicht geändert werden (Ordner und Dateien müssen am gleichen Platz und mit demselben Namen bleiben)
+	-> Lösung: Kopien zum bearbeiten erstellen
+
+2. Es dürfen keine anderen Tabellenblätter an Stelle 1 oder 2 sein. Es dürfen nur Tabellenblätter hinten angehangen werden.
+
+3. Die CSV Dateien im Data Ordner müssen in die Richtige Plattenreihenfolge gebracht werden (sprich erste Platte muss auch an oberster Stelle sein (am Besten eine 1 am Anfang des Dateinamen schreiben)
+

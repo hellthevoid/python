@@ -1,0 +1,24 @@
+Python-Excel-Auswertung
+
+Voraussetzungen
+
+1. Die Letzte Arbeitsstation muss für beide Ringvarianten die gleiche Bearbeitungszeit haben
+
+2. Datenstruktur darf nicht geändert werden (Ordner und Dateien müssen am gleichen Platz und mit demselben Namen bleiben) Lösung: Kopien zum bearbeiten erstellen
+
+3. smartfactory_template.xlsx darf nicht verändert werden! Nur mit smartfactory_data.xlsx arbeiten! Achtung: wird die smartfactory.exe ausgeführt wird die alte smartfactory_data.xlsx Datei automatisch überschrieben!
+
+
+Durchführung
+
+1. CSV Dateien in den Data Ordner vom Smartfactory legen.
+2. CSV Dateien in die Richtige Plattenreihenfolge bringen (sprich erste Platte muss auch an oberster Stelle sein (am Besten fortführende Nummern am Anfang des Dateinamen schreiben)
+3. Smartfactory.exe ausführen
+4. Berechnete Kennzahlen sind in smartfactory_data.xlsx zu finden
+
+Smartfactory_data.xlsx
+
+Tabellenblatt 1: Raw-Informationen aus den CSV Dateien. Erste Spalte ist die Zeit (genullt). Folgende Spalten jeweils ein Sensor
+Tabellenblatt 2: Zugangszeitpunkt der Pakete für die einzelnen Arbeitsstationen (+Abgangszeitpunkt gesamtsystem)
+Tabellenblatt 3: Auswertung mittels Durchlaufdiagramm
+
