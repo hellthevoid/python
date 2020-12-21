@@ -152,7 +152,7 @@ def get_attributes(driver,month,document):
         article=article.get_attribute("outerHTML") #Article content HTML
         
         #remove these parts from the html as they only cause problems e.g. smileys
-        article=re.sub(r'<img draggable="false" role="img" class="emoji".*.svg">',"TEST1",article)
+        article=re.sub(r'<img draggable="false" role="img" class="emoji".*.svg">',"CAWABUNGA1",article)
         article1=re.sub(r'<div class="tiled-gallery type-rectangular" (.)*extra="{&quot;blog_id&quot;:115705291,&quot;permalink&quot;:&quot;https:\/\/ntoverland.wordpress.com\/2016\/11\/09\/you-better-belize-it\/&quot;,&quot;likes_blog_id&quot;:115705291}" itemscope="" (.)* <!-- close row --> </div>','test2',article)
         if article!=article1:
             print('something was changed')
@@ -193,7 +193,7 @@ for month in months:
 
 #remove all links
 regex = re.compile(r"(<link:.*/>)")
-replace="TEST"
+replace="CAWABUNGA"
 
 regex_left=True
 while regex_left==True:
