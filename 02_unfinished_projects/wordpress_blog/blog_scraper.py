@@ -48,7 +48,7 @@ def delay():
     time.sleep(random.uniform(1,2))
 
 def set_up_driver(link):
-    driver=webdriver.Firefox()
+    driver=webdriver.Firefox(executable_path='/home/hellthevoid/git-python/python/geckodriver')
     #driver.switch_to.window(driver.current_window_handle)
     #driver.minimize_window()
     try:
